@@ -1,0 +1,92 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# MODELS & WEIGHTS
+# =========================
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+
+# =========================
+# DATA FILES
+# =========================
+data/
+*.csv
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# LOG FILES
+# =========================
+logs/
+*.log
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE & EDITOR FILES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# ENV FILES (IMPORTANT)
+# =========================
+.env
+.env.local
+.env.*
+
+# =========================
+# CACHE
+# =========================
+.cache/
+*.cache
+
+# =========================
+# TEST OUTPUT
+# =========================
+coverage/
+htmlcov/
+.pytest_cache/
